@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    
+
+    <title>Site com Bootstrap 4</title>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+        <div class="container">
+            <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+            <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite" >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">Linkedin</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark" type="submit">Ok</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.png" class="img-fluid d-block vh-80 vw-100" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Desenvolvedor</h1>
+                    <p class="lead">asdfg asdfg qwet asdf wqerewq asdfffw </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.png" class="img-fluid d-block  vh-80 vw-100" />
+                <div class="carousel-caption d-none d-md-block text-dark" >
+                    <h3>Programador</h3>
+                    <p>asdfg asdfg dfsdfsdfddsfdsdsdfdfdsfdfssdfffw </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3.png" class="img-fluid d-block vh-100 vw-100" />
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h3>Ninja</h3>
+                    <p>asdfg iiuytrehuyjinjbthrftetfgytuyj asdfffw </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3">Ninja</h1>
+                <p>asdfg iiuytrehuyjinjbthrftetfgytuyj asdfffw </p>
+            </div>
+
+        </div>
+        <div class="row mb-5">
+            <div class="col-sm-6 col-md-4 mb-3">
+
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
+
+                        <a class="nav-link" href="#item1">Lorem ipsum</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Nullam fringi</a>
+                            <a class="nav-link ml-3" href="#item1-2"> Donac vel</a>
+                        </nav>
+
+                        <a class="nav-link my-2" href="#item2">Aiiii eiii</a>
+
+                        <a class="nav-link my-2" href="#item3">Hahahahahah</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">Nullam frin</a>
+                            <a class="nav-link ml-3" href="#item3-2"> Donac vel</a>
+                        </nav>
+
+                    </nav>
+                </nav>    
+            </div>
+            <div class="col-sm-6 col-md-8">
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                    <h4 id="item1">text of the printing</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h5 id="item1-1">established fact</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h5 id="item1-2">dummy text of the</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h4 id="item2">established fact</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h4 id="item3">dummy text of the</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h5 id="item3-1">established fact</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>
+                    <h5 id="item3-2">dummy text of the</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        
+                        </p>    
+                </div>
+
+            </div>
+        </div>
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-6 col-md-4">
+
+                <div class="card mb-5">
+
+                    <img class="card-img-top" src="img/card.png">
+                    <div class="card-body">
+                        <h4 class="card-title"> Os Vingadores</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
+                        <p class="card-text"> It is a long established fact that a reader will be distracted</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius</li>
+                        <li class="list-group-item">Proin cursus</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+                    <div class="card-body">    
+                        <a href="#" class="card-link">Donec</a>
+                        <a href="#" class="card-link">risus</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+
+                <div class="card mb-5">
+
+                    <img class="card-img-top" src="img/card.png">
+                    <div class="card-body">
+                        <h4 class="card-title"> Os Vingadores</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
+                        <p class="card-text"> It is a long established fact that a reader will be distracted</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius</li>
+                        <li class="list-group-item">Proin cursus</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+                    <div class="card-body">    
+                        <a href="#" class="card-link">Donec</a>
+                        <a href="#" class="card-link">risus</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+
+                <div class="card mb-5">
+
+                    <img class="card-img-top" src="img/card.png">
+                    <div class="card-body">
+                        <h4 class="card-title"> Os Vingadores</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Subtitle</h6>
+                        <p class="card-text"> It is a long established fact that a reader will be distracted</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius</li>
+                        <li class="list-group-item">Proin cursus</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+                    <div class="card-body">    
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Donec</a>
+                        <a href="#" class="card-link">risus</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Maecenas ac
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Fusc as Cursus nisi</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> 
+                        It is a long established fact that a reader will be distracted by the 
+                        readable content of a page when looking at its layout. The point of 
+                        using Lorem Ipsum is that it has a more-or-less normal distribution 
+                        of letters, as opposed to using 'Content here, content here', making 
+                        it look like readable English. Many desktop publishing packages and
+                        web page editors now use Lorem Ipsum as their default model text, 
+                        and a search for 'lorem ipsum' will uncover many web sites still 
+                        in their infancy. Various versions have evolved over
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">
+                        Donec
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="node_modules/jquery/dist/jquery.js" ></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  </body>
+</html>
+
+<!-- npm install bootstrap -->
+
+<!-- 
+    npm install bootstrap@4.0.0-beta.2
+    npm install -g sass 
+    npm install jquery
+    npm install popper.js
+    npm -g install sass
+    brew install sass/sass/sass
+    sudo apt install linuxbrew-wrapper
+    npm init
+    sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler
+-->
+
+
+
+
